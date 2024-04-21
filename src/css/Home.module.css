@@ -1,0 +1,21 @@
+.toptmenuinner {
+    float: top; 
+    width: 100%; 
+    background-color: lightblue;
+}
+
+.midmenuinner{
+    float: left; 
+    width: 20%; 
+    margin: auto;
+    height: 100vh; 
+    background-color: rgb(61, 118, 94);
+}
+
+.lastmenuinner{
+    float: left;
+    width: 80%; 
+    margin: auto;
+    height: 100vh; 
+    background-color: rgb(221, 24, 103) ;
+}

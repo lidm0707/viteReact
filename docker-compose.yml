@@ -1,0 +1,8 @@
+services:
+  vite:
+    image: node:latest  # ใช้ภาพ Docker ของ Node.js
+    volumes:
+      - .:/app  # แชร์โฟลเดอร์ปัจจุบันกับคอนเทนเนอร์
+    working_dir: /app  # ตั้งโฟลเดอร์ทำงานเป็น /app
+    ports:
+      - "5173:3000"  # โปรเจค Vite จะรันที่พอร์ต 3000 ในคอนเทนเนอร์

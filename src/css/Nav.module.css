@@ -1,0 +1,23 @@
+.menuRight {
+    float: right;
+    width: 20% ;
+    height: auto;
+
+}
+
+.li {
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    padding:20px;
+    margin: 5%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  /* Hover effect */
+.li:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow effect on hover */
+  }
+
